@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Strong Password Generator",
+  "version": "1.0",
+  "description": "Instantly generate secure, unique, and random passwords with ease! Protect your online accounts with high-strength passwords directly from Chrome.",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "short_name": "PwdGen",
+  "homepage_url": "https://yourwebsite.com/strong-password-generator",
+  "author": "0xSingh"
+}
